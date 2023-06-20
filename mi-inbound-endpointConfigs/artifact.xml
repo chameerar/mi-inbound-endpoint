@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="HelloWorld" groupId="wso2.sampleHelloWorld.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/HelloWorld.xml</file>
+    </artifact>
+    <artifact name="HelloWorld_swagger" groupId="wso2.sampleHelloWorld.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/HelloWorld_swagger.yaml</file>
+    </artifact>
+    <artifact name="HelloWorld_metadata" groupId="wso2.sampleHelloWorld.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/HelloWorld_metadata.yaml</file>
+    </artifact>
+    <artifact name="MiInboundEndpoint" groupId="wso2.sampleHelloWorld.inbound-endpoint" version="1.0.0" type="synapse/inbound-endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/inbound-endpoints/MiInboundEndpoint.xml</file>
+    </artifact>
+</artifacts>
